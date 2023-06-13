@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Form adatok fogadása</title>
+	</head>	
+	
+	<body onload="page_load()">
+		<script>
+			function page_load() {
+				var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,    
+				function(m,key,value) {
+					document.getElementById("ertekeles").innerHTML += "<b><u>" + key + "</u></b>:" + unescape(value) + "<br/>";
+				});
+			}
+		
+		</script>
+	
+		<div id="ertekeles">
+		</div>
+	</body>
+</html>
