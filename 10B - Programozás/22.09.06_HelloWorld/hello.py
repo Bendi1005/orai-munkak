@@ -1,2 +1,0 @@
-uzenet = 'fasz'
-print(uzenet)
