@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Regisztráció</h1>
+    <!--<form action="formfeldolgoz.html" method="get"> -->
+    <form action="https://jedlikinfo.jedlik.eu/post_gyakorlas.php" method="post">
+    <fieldset>
+        <legend>Regisztrációs adatok</legend>
+        <div>
+            <label for="teljesnev">Teljes név:</label>
+            <input type="text" name="teljesnev" id="teljesnev" placeholder="Orbán Viktor?">
+        </div>
+        
+        <div>
+            <label for="">E-mail cím</label>
+            <input type="text" name="E-mail" id="E-mail">
+        </div>
+
+        <div>
+            <label for="jelszo">Jelszó</label>
+            <input type="password" name="jelszo" id="jelszo">
+        </div>
+        
+        <div>
+            <label for="telefon">Anya telefonszáma</label>
+            <input type="tel" name="telefon" id="telefon" placeholder="+36-12-123-1234">
+        </div>
+
+        <div>
+            <label for="szdatum">Születési dátum</label>
+            <input type="date" name="szdatum" id="szdatum">
+        </div>
+
+        <div>
+            <label for="magassag">Magasság</label>
+            <input type="number" name="magassag" min="150" max="250" step="1" id="magassag">
+        </div>
+
+        <div>
+            Nem:
+            <input type="radio" name="nem" id="nem" value="férfi">
+            <label for="ferfi">férfi</label>
+            <input type="radio" name="nem" id="nem" value="nő">
+            <label for="nő">nő</label>
+            <input type="radio" name="nem" id="nem" value="egyik sem">
+            <label for="other">egyik sem</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="elfogad" id="elfogad" value="elfogadva">
+            <label for="elfogad">Az adatait hackereknek kiadhatjuk, köszi</label>
+        </div>
+
+        <div>
+            <label for="uzenet">Üzenet</label>
+            <textarea name="uzenet" id="uzenet" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="vegzettseg">Végzettség</label>
+            <select name="vegzettseg" id="vegzettseg">
+                <option value="alapfok">alapfok</option>
+                <option value="középfok" selected>középfok</option>
+                <option value="felsőfok">felsőfok</option>
+                <option value="túluófok">túluófok</option>
+            </select>
+
+        </div>
+
+        <div>
+
+            <input type="submit" value="Regisztrál">
+            <input type="reset" value="Visszaállít">
+        </div>
+
+    </fieldset>
+    </form>
+
+
+
+
+</body>
+</html>
