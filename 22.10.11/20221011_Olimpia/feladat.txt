@@ -1,0 +1,11 @@
+sportagak = ['Atlétika','Birkózás','Evezés','Kerékpározás','Labdarúgás',
+             'Lovaglás','Lovaspóló','Műugrás','művészeti versenyek','Ökölvívás',
+             'Öttusa','Rögbi','Sportlövészet','Súlyemelés','Tenisz',
+             'Torna','Úszás','Vívás','Vitorlázás','Vízilabda']
+ermekSzama = [27, 13, 7, 6, 1, 5, 1, 5, 5, 8, 1, 1, 10, 5, 5, 9, 11, 7, 3, 1]
+
+# Írja ki hány sportágban osztottak érmet az 1924-es Párizsi olimpián
+# Írja ki a képernyőre hány olyan sportág volt, ahol több, mint 1 érmet osztottak
+# Írja ki a képernyőre összesen hány aranyérmet oszottak összesen
+# Írja ki a képernyőre, hogy melyik sportágból osztották a legtöbb érmet
+# Kérje be egy sportág nevét, és írja ki, hogy ebből a sportágból hány érmet osztottak

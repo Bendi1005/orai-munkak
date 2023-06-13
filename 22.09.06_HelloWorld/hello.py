@@ -1,0 +1,2 @@
+uzenet = 'fasz'
+print(uzenet)
